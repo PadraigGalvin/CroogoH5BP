@@ -1,0 +1,18 @@
+{
+	"name" : "Croogo H5BP",
+	"description" : "Croogo theme based on the HTML5 Boilerplate.",
+	"screenshot" : "screenshot.png",
+
+	"author" : "Padraig Galvin",
+	"authorEmail" : "padraig@xgalvin.eu",
+	"authorUrl" : "http://xgalvin.com",
+
+	"menus" : [
+		"main",
+		"footer"
+	],
+
+	"regions" : [
+		"right"
+	]
+}
