@@ -29,6 +29,9 @@
 		<![endif]-->
 		
 		<header>
+			<h1>
+				<?php echo Configure::read('Site.title'); ?>
+			</h1>
 			<nav>
 				<?php echo $this->Layout->menu('main'); ?>
 			</nav>
@@ -38,9 +41,9 @@
 			<div id="content">
 				<?php echo $content_for_layout; ?>
 			</div>
-			<div id="sidebar">
+			<aside id="sidebar">
 				<?php echo $this->Layout->blocks('right'); ?>
-			</div>
+			</aside>
 		</div>
 		
 		<footer>
