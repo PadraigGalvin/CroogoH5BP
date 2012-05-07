@@ -13,7 +13,7 @@
 		<?php
 			echo $this->Layout->meta();
 			echo $this->Layout->feed();
-			echo $this->Html->css(array('theme'));
+			echo $this->Html->css('theme');
 			echo $this->Layout->js();
 			echo $this->Html->script('libs/modernizr-2.5.3.min');
 		?>
@@ -54,8 +54,10 @@
 		<script>window.jQuery || document.write(unescape(<?php echo json_encode($this->Html->script('libs/jquery-1.7.2.min')); ?>))</script>
 		
 		<?php
-			echo $this->Html->script('plugins');
-			echo $this->Html->script('theme');
+			echo $this->Html->script(array(
+				'plugins',
+				'theme'
+			));
 			echo $this->Js->writeBuffer();
 		?>
 		
