@@ -5,7 +5,7 @@
 
 ### Notes:
 
-* Supports Croogo 1.4
-* Based on HTML5 Boilerplate 3.0
-* Includes jQuery 1.7.1 (Google CDN with local fallback)
-* Includes Modernizr 2.5
+* Supports Croogo 1.4.3
+* Based on HTML5 Boilerplate 4.0.0
+* Includes jQuery 1.8.1 (Google CDN with local fallback)
+* Includes Modernizr 2.6.1
