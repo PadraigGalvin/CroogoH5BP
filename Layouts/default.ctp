@@ -1,8 +1,8 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
 	<head>
 		<meta charset="utf-8">
@@ -18,18 +18,15 @@
 				'main'
 			));
 			echo $this->Layout->js();
-			echo $this->Html->script('vendor/modernizr-2.5.3.min');
+			echo $this->Html->script('vendor/modernizr-2.6.1-respond-1.1.0.min');
 		?>
 	</head>
 
 	<body>
 		
 		<!--[if lt IE 7]>
-			<p class=chromeframe>Your browser is <em>ancient!</em>
-			<a href="http://browsehappy.com/">Upgrade to a different browser</a> or 
-			<a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> 
-			to experience this site.</p>
-		<![endif]-->
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
 		
 		<header>
 			<h1>
@@ -53,8 +50,8 @@
 			<?php echo $this->Layout->menu('footer'); ?>
 		</footer>
 		
-		<script src="//ajax.googleapis.com/ajax/vendor/jquery/1.7.2/jquery.min.js"></script>
-		<script>window.jQuery || document.write(unescape(<?php echo json_encode($this->Html->script('vendor/jquery-1.7.2.min')); ?>))</script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write(unescape(<?php echo json_encode($this->Html->script('vendor/vendor/jquery-1.8.1.min')); ?>))</script>
 		
 		<?php
 			echo $this->Html->script(array(
