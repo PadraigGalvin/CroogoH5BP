@@ -13,9 +13,12 @@
 		<?php
 			echo $this->Layout->meta();
 			echo $this->Layout->feed();
-			echo $this->Html->css('theme');
+			echo $this->Html->css(array(
+				'normalize.min'
+				'main'
+			));
 			echo $this->Layout->js();
-			echo $this->Html->script('libs/modernizr-2.5.3.min');
+			echo $this->Html->script('vendor/modernizr-2.5.3.min');
 		?>
 	</head>
 
@@ -50,13 +53,13 @@
 			<?php echo $this->Layout->menu('footer'); ?>
 		</footer>
 		
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<script>window.jQuery || document.write(unescape(<?php echo json_encode($this->Html->script('libs/jquery-1.7.2.min')); ?>))</script>
+		<script src="//ajax.googleapis.com/ajax/vendor/jquery/1.7.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write(unescape(<?php echo json_encode($this->Html->script('vendor/jquery-1.7.2.min')); ?>))</script>
 		
 		<?php
 			echo $this->Html->script(array(
 				'plugins',
-				'theme'
+				'main'
 			));
 			echo $this->Js->writeBuffer();
 		?>
