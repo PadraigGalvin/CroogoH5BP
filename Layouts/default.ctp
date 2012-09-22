@@ -14,7 +14,7 @@
 			echo $this->Layout->meta();
 			echo $this->Layout->feed();
 			echo $this->Html->css(array(
-				'normalize.min'
+				'normalize.min',
 				'main'
 			));
 			echo $this->Layout->js();
