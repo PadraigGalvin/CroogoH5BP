@@ -1,7 +1,7 @@
 
-# Croogo H5BP
+# CroogoH5BP
 
-*Minimal [Croogo](http://croogo.org/) boilerplate theme (no styles) based on the [HTML5 Boilerplate](http://html5boilerplate.com/), useful for starting new projects.*
+*A minimal, unstyled [Croogo](http://croogo.org/) theme based on the [HTML5 ★ BOILERPLATE](http://html5boilerplate.com/), useful for starting new projects.*
 
 ### Notes:
 
