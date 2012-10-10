@@ -51,7 +51,7 @@
 		</footer>
 		
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-		<script>window.jQuery || document.write(unescape(<?php echo json_encode($this->Html->script('vendor/vendor/jquery-1.8.1.min')); ?>))</script>
+		<script>window.jQuery || document.write(unescape(<?php echo json_encode($this->Html->script('vendor/jquery-1.8.1.min')); ?>))</script>
 		
 		<?php
 			echo $this->Html->script(array(
